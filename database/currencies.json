@@ -1,0 +1,92 @@
+{
+  "EUR": {
+    "code": "EUR",
+    "decimals": 2,
+    "description": "EUR Description",
+    "symbol": "€"
+  },
+  "USD": {
+    "code": "USD",
+    "decimals": 2,
+    "description": "USD Description",
+    "symbol": "$"
+  },
+  "RUB": {
+    "code": "RUB",
+    "decimals": 2,
+    "description": "Russian Ruble",
+    "symbol": "₽"
+  },
+  "GBP": {
+    "code": "GBP",
+    "decimals": 2,
+    "description": "GBP British Pound",
+    "symbol": "£"
+  },
+  "PLN": {
+    "code": "PLN",
+    "decimals": 2,
+    "description": "Polish Zloty",
+    "symbol": "zł"
+  },
+  "KRW": {
+    "code": "KRW",
+    "decimals": 0,
+    "description": "South Korean Won",
+    "symbol": "₩"
+  },
+  "UAH": {
+    "code": "UAH",
+    "decimals": 2,
+    "description": "Ukraine Hryvnia",
+    "symbol": "₴"
+  },
+  "TRY": {
+    "code": "TRY",
+    "decimals": 2,
+    "description": "Turkish Lira",
+    "symbol": "₺"
+  },
+  "JPY": {
+    "code": "JPY",
+    "decimals": 0,
+    "description": "Japanese yen",
+    "symbol": "¥"
+  },
+  "BRL": {
+    "code": "BRL",
+    "decimals": 2,
+    "description": "Brazilian Real",
+    "symbol": "R$"
+  },
+  "AUD": {
+    "code": "AUD",
+    "decimals": 2,
+    "description": "Australian Dollar",
+    "symbol": "$"
+  },
+  "CAD": {
+    "code": "CAD",
+    "decimals": 2,
+    "description": "Canadian dollar",
+    "symbol": "$"
+  },
+  "DKK": {
+    "code": "DKK",
+    "decimals": 2,
+    "description": "Danish Krona",
+    "symbol": "kr."
+  },
+  "NOK": {
+    "code": "NOK",
+    "decimals": 2,
+    "description": "Norwegian Krona",
+    "symbol": "kr"
+  },
+  "SEK": {
+    "code": "SEK",
+    "decimals": 2,
+    "description": "Swedish Krona",
+    "symbol": "kr"
+  }
+}

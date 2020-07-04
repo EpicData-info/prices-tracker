@@ -1,0 +1,24 @@
+{
+  "id": "caff500b09924924a8483686d909e391",
+  "price": {
+    "totalPaymentPrice": {
+      "paymentCurrencyAmount": 1619,
+      "paymentCurrencyCode": "JPY",
+      "paymentCurrencyExchangeRate": 1,
+      "paymentCurrencySymbol": "¥"
+    },
+    "totalPrice": {
+      "basePayoutCurrencyCode": "USD",
+      "basePayoutPrice": 1369,
+      "convenienceFee": 0,
+      "currencyCode": "JPY",
+      "discount": 0,
+      "discountPrice": 1619,
+      "originalPrice": 1619,
+      "originalUnitPrice": null,
+      "unitPrice": null,
+      "vat": 147,
+      "voucherDiscount": 0
+    }
+  }
+}
