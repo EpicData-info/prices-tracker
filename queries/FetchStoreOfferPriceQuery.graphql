@@ -1,0 +1,44 @@
+query catalogQuery($locale:String, $count:Int, $start:Int, $country: String!, $sortBy: String, $sortDir: String) {
+  Catalog {
+    searchStore (
+      locale: $locale,
+      count: $count
+      start: $start
+      country: $country
+      sortBy: $sortBy
+      sortDir: $sortDir
+    ) {
+      elements {
+        id
+        price (
+          country: $country
+        ) {
+          totalPaymentPrice {
+            paymentCurrencyAmount
+            paymentCurrencyCode
+            paymentCurrencyExchangeRate
+            paymentCurrencySymbol
+          }
+          totalPrice {
+            basePayoutCurrencyCode
+            basePayoutPrice
+            convenienceFee
+            currencyCode
+            discount
+            discountPrice
+            originalPrice
+            originalUnitPrice
+            unitPrice
+            vat
+            voucherDiscount
+          }
+        }
+      }
+      paging {
+        count
+        start
+        total
+      }
+    }
+  }
+}

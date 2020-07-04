@@ -1,0 +1,17 @@
+query catalogQuery {
+    Catalog {
+      supportedCurrencies {
+        elements {
+          code
+          decimals
+          description
+          symbol
+        }
+        paging {
+          count
+          start
+          total
+        }
+      }
+    }
+  }

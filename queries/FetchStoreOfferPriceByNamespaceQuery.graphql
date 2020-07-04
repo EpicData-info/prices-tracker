@@ -1,0 +1,48 @@
+query catalogQuery($namespace:String!, $locale:String, $count:Int, $start:Int, $country: String!) {
+  Catalog {
+    catalogOffers(
+      namespace: $namespace,
+      locale: $locale,
+      params: {
+        count: $count,
+        start: $start,
+        country: $country
+      },
+      countryAgeFilter: {
+        shouldCheck: false
+      }
+    ) {
+      elements {
+        id
+        price (
+          country: $country
+        ) {
+          totalPaymentPrice {
+            paymentCurrencyAmount
+            paymentCurrencyCode
+            paymentCurrencyExchangeRate
+            paymentCurrencySymbol
+          }
+          totalPrice {
+            basePayoutCurrencyCode
+            basePayoutPrice
+            convenienceFee
+            currencyCode
+            discount
+            discountPrice
+            originalPrice
+            originalUnitPrice
+            unitPrice
+            vat
+            voucherDiscount
+          }
+        }
+      }
+      paging {
+        count
+        start
+        total
+      }
+    }
+  }
+}
