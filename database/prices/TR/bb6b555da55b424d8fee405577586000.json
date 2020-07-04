@@ -1,0 +1,24 @@
+{
+  "id": "bb6b555da55b424d8fee405577586000",
+  "price": {
+    "totalPaymentPrice": {
+      "paymentCurrencyAmount": 686082,
+      "paymentCurrencyCode": "TRY",
+      "paymentCurrencyExchangeRate": null,
+      "paymentCurrencySymbol": "₺"
+    },
+    "totalPrice": {
+      "basePayoutCurrencyCode": "USD",
+      "basePayoutPrice": 84746,
+      "convenienceFee": 0,
+      "currencyCode": "USD",
+      "discount": 0,
+      "discountPrice": 100000,
+      "originalPrice": 100000,
+      "originalUnitPrice": null,
+      "unitPrice": null,
+      "vat": 15254,
+      "voucherDiscount": 0
+    }
+  }
+}
