@@ -95,11 +95,47 @@ class Main {
     //   }
     // }
     // this.trackingStats.fetchStoreOffersByNamespaceTime = Date.now() - checkpointTime;
+
+    checkpointTime = Date.now();
+    this.index();
+    this.trackingStats.indexTime = Date.now() - checkpointTime;
     
     this.trackingStats.lastUpdate = Date.now();
     this.trackingStats.lastUpdateString = (new Date(this.trackingStats.lastUpdate)).toISOString();
 
     await this.sync();
+  }
+
+  index () {
+    console.log('Indexing...');
+    const promotions = {};
+    
+    for (let i = 0; i < this.countries.length; ++i) {
+      const country = this.countries[i];
+      const pricesPath = `${this.databasePath}/prices/${country}`;
+      Fs.readdirSync(pricesPath).forEach((fileName) => {
+        if (fileName.substr(-5) !== '.json') return;
+        try {
+          const offer = JSON.parse(Fs.readFileSync(`${pricesPath}/${fileName}`));
+          if (
+            offer.price
+            && offer.price.totalPrice
+            && offer.price.totalPrice.originalPrice > 0
+            && offer.price.totalPrice.discountPrice < offer.price.totalPrice.originalPrice
+          ) {
+            promotions[offer.id] = [
+              offer.price.totalPrice.discountPrice,
+              offer.price.totalPrice.originalPrice,
+              Math.floor((100 - offer.price.totalPrice.discountPrice / offer.price.totalPrice.originalPrice * 100) * 100) / 100,
+            ];
+          }
+        } catch (error) {
+          console.error(error);
+        }
+      });
+      Fs.writeFileSync(`${this.databasePath}/promotions/${country}.json`, JSON.stringify(promotions));
+    }
+    
   }
 
   async sync () {
