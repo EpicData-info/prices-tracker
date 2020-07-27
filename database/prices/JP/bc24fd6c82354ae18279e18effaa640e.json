@@ -4,17 +4,17 @@
     "totalPaymentPrice": {
       "paymentCurrencyAmount": 0,
       "paymentCurrencyCode": "JPY",
-      "paymentCurrencyExchangeRate": null,
+      "paymentCurrencyExchangeRate": 1,
       "paymentCurrencySymbol": "¥"
     },
     "totalPrice": {
       "basePayoutCurrencyCode": "USD",
       "basePayoutPrice": 0,
       "convenienceFee": 0,
-      "currencyCode": "USD",
-      "discount": 0,
+      "currencyCode": "JPY",
+      "discount": 1980,
       "discountPrice": 0,
-      "originalPrice": 0,
+      "originalPrice": 1980,
       "originalUnitPrice": null,
       "unitPrice": null,
       "vat": 0,
