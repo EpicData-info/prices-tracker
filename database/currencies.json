@@ -88,5 +88,47 @@
     "decimals": 2,
     "description": "Swedish Krona",
     "symbol": "kr"
+  },
+  "CZK": {
+    "code": "CZK",
+    "decimals": 2,
+    "description": "Czech koruna",
+    "symbol": "Kč"
+  },
+  "ILS": {
+    "code": "ILS",
+    "decimals": 2,
+    "description": "Israeli new shekel",
+    "symbol": "₪"
+  },
+  "CHF": {
+    "code": "CHF",
+    "decimals": 2,
+    "description": "Swiss franc",
+    "symbol": "Fr."
+  },
+  "MXN": {
+    "code": "MXN",
+    "decimals": 2,
+    "description": "Mexican peso",
+    "symbol": "$"
+  },
+  "PEN": {
+    "code": "PEN",
+    "decimals": 2,
+    "description": "Peruvian sol",
+    "symbol": "S/"
+  },
+  "HUF": {
+    "code": "HUF",
+    "decimals": 2,
+    "description": "Hungarian forint",
+    "symbol": "Ft"
+  },
+  "CLP": {
+    "code": "CLP",
+    "decimals": 0,
+    "description": "Chilean peso",
+    "symbol": "$"
   }
 }

@@ -4,14 +4,14 @@
     "totalPaymentPrice": {
       "paymentCurrencyAmount": 0,
       "paymentCurrencyCode": "TRY",
-      "paymentCurrencyExchangeRate": null,
+      "paymentCurrencyExchangeRate": 1,
       "paymentCurrencySymbol": "₺"
     },
     "totalPrice": {
       "basePayoutCurrencyCode": "USD",
       "basePayoutPrice": 0,
       "convenienceFee": 0,
-      "currencyCode": "USD",
+      "currencyCode": "TRY",
       "discount": 0,
       "discountPrice": 0,
       "originalPrice": 0,

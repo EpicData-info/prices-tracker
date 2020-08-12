@@ -4,14 +4,14 @@
     "totalPaymentPrice": {
       "paymentCurrencyAmount": 0,
       "paymentCurrencyCode": "PLN",
-      "paymentCurrencyExchangeRate": null,
+      "paymentCurrencyExchangeRate": 1,
       "paymentCurrencySymbol": "zł"
     },
     "totalPrice": {
       "basePayoutCurrencyCode": "USD",
       "basePayoutPrice": 0,
       "convenienceFee": 0,
-      "currencyCode": "USD",
+      "currencyCode": "PLN",
       "discount": 0,
       "discountPrice": 0,
       "originalPrice": 0,
