@@ -211,6 +211,7 @@ class Main {
         const element = result.elements[i];
         saveFunction(element);
       }
+      await this.sleep(1000);
     } while (paging.start - this.perPage < paging.total - paging.count);
   }
 
@@ -233,7 +234,7 @@ class Main {
         }
         console.log(JSON.stringify(error.response, null, 2));
         console.log('Next attempt in 1s...');
-        await this.sleep(1000);
+        await this.sleep(5000);
         return this.fetchElements(...arguments);
       } else {
         throw new Error(error);
