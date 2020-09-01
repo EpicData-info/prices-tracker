@@ -3,15 +3,15 @@
   "price": {
     "totalPaymentPrice": {
       "paymentCurrencyAmount": 99,
-      "paymentCurrencyCode": "EUR",
+      "paymentCurrencyCode": "CHF",
       "paymentCurrencyExchangeRate": 1,
-      "paymentCurrencySymbol": "€"
+      "paymentCurrencySymbol": "Fr."
     },
     "totalPrice": {
       "basePayoutCurrencyCode": "USD",
-      "basePayoutPrice": 109,
+      "basePayoutPrice": 102,
       "convenienceFee": 0,
-      "currencyCode": "EUR",
+      "currencyCode": "CHF",
       "discount": 0,
       "discountPrice": 99,
       "originalPrice": 99,

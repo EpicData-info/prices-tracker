@@ -3,7 +3,7 @@
   "price": {
     "totalPaymentPrice": {
       "paymentCurrencyAmount": 0,
-      "paymentCurrencyCode": "USD",
+      "paymentCurrencyCode": "MXN",
       "paymentCurrencyExchangeRate": 1,
       "paymentCurrencySymbol": "$"
     },
@@ -11,10 +11,10 @@
       "basePayoutCurrencyCode": "USD",
       "basePayoutPrice": 0,
       "convenienceFee": 0,
-      "currencyCode": "USD",
-      "discount": 0,
+      "currencyCode": "MXN",
+      "discount": 28900,
       "discountPrice": 0,
-      "originalPrice": 0,
+      "originalPrice": 28900,
       "originalUnitPrice": null,
       "unitPrice": null,
       "vat": 0,

@@ -3,9 +3,9 @@
   "price": {
     "totalPaymentPrice": {
       "paymentCurrencyAmount": 0,
-      "paymentCurrencyCode": "USD",
-      "paymentCurrencyExchangeRate": 1,
-      "paymentCurrencySymbol": "$"
+      "paymentCurrencyCode": "ILS",
+      "paymentCurrencyExchangeRate": null,
+      "paymentCurrencySymbol": "₪"
     },
     "totalPrice": {
       "basePayoutCurrencyCode": "USD",
