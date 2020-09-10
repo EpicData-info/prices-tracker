@@ -3,15 +3,15 @@
   "price": {
     "totalPaymentPrice": {
       "paymentCurrencyAmount": 0,
-      "paymentCurrencyCode": "EUR",
-      "paymentCurrencyExchangeRate": null,
-      "paymentCurrencySymbol": "€"
+      "paymentCurrencyCode": "CZK",
+      "paymentCurrencyExchangeRate": 1,
+      "paymentCurrencySymbol": "Kč"
     },
     "totalPrice": {
       "basePayoutCurrencyCode": "USD",
       "basePayoutPrice": 0,
       "convenienceFee": 0,
-      "currencyCode": "USD",
+      "currencyCode": "CZK",
       "discount": 0,
       "discountPrice": 0,
       "originalPrice": 0,
