@@ -130,5 +130,35 @@
     "decimals": 0,
     "description": "Chilean peso",
     "symbol": "$"
+  },
+  "SAR": {
+    "code": "SAR",
+    "decimals": 2,
+    "description": "Saudi Riyal",
+    "symbol": "ر.س"
+  },
+  "AED": {
+    "code": "AED",
+    "decimals": 2,
+    "description": "United Arab Emirates Dirham",
+    "symbol": "د.إ"
+  },
+  "RON": {
+    "code": "RON",
+    "decimals": 0,
+    "description": "Romanian Leu",
+    "symbol": "lei"
+  },
+  "NZD": {
+    "code": "NZD",
+    "decimals": 2,
+    "description": "New Zealand Dollar",
+    "symbol": "$"
+  },
+  "ZAR": {
+    "code": "ZAR",
+    "decimals": 2,
+    "description": "South African Rand",
+    "symbol": "R"
   }
 }
