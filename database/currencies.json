@@ -160,5 +160,17 @@
     "decimals": 2,
     "description": "South African Rand",
     "symbol": "R"
+  },
+  "INR": {
+    "code": "INR",
+    "decimals": 2,
+    "description": "Indian Rupee",
+    "symbol": "₹"
+  },
+  "COP": {
+    "code": "COP",
+    "decimals": 2,
+    "description": "Colombia Pesos",
+    "symbol": "$"
   }
 }
