@@ -4,17 +4,17 @@
     "totalPaymentPrice": {
       "paymentCurrencyAmount": 1702,
       "paymentCurrencyCode": "ILS",
-      "paymentCurrencyExchangeRate": null,
+      "paymentCurrencyExchangeRate": 1,
       "paymentCurrencySymbol": "₪"
     },
     "totalPrice": {
       "basePayoutCurrencyCode": "USD",
       "basePayoutPrice": 499,
       "convenienceFee": 0,
-      "currencyCode": "USD",
+      "currencyCode": "ILS",
       "discount": 0,
-      "discountPrice": 499,
-      "originalPrice": 499,
+      "discountPrice": 1702,
+      "originalPrice": 1702,
       "originalUnitPrice": null,
       "unitPrice": null,
       "vat": 0,
