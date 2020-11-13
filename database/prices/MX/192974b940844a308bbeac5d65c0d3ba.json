@@ -1,0 +1,24 @@
+{
+  "id": "192974b940844a308bbeac5d65c0d3ba",
+  "price": {
+    "totalPaymentPrice": {
+      "paymentCurrencyAmount": 0,
+      "paymentCurrencyCode": "MXN",
+      "paymentCurrencyExchangeRate": 1,
+      "paymentCurrencySymbol": "$"
+    },
+    "totalPrice": {
+      "basePayoutCurrencyCode": "USD",
+      "basePayoutPrice": 0,
+      "convenienceFee": 0,
+      "currencyCode": "MXN",
+      "discount": 0,
+      "discountPrice": 0,
+      "originalPrice": 0,
+      "originalUnitPrice": null,
+      "unitPrice": null,
+      "vat": 0,
+      "voucherDiscount": 0
+    }
+  }
+}
