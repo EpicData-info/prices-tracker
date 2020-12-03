@@ -2,22 +2,22 @@
   "id": "124e1b42195949dda096a46a16061f27",
   "price": {
     "totalPaymentPrice": {
-      "paymentCurrencyAmount": 22000,
+      "paymentCurrencyAmount": 44000,
       "paymentCurrencyCode": "CZK",
       "paymentCurrencyExchangeRate": 1,
       "paymentCurrencySymbol": "Kč"
     },
     "totalPrice": {
       "basePayoutCurrencyCode": "USD",
-      "basePayoutPrice": 834,
+      "basePayoutPrice": 1669,
       "convenienceFee": 0,
       "currencyCode": "CZK",
-      "discount": 22000,
-      "discountPrice": 22000,
+      "discount": 0,
+      "discountPrice": 44000,
       "originalPrice": 44000,
       "originalUnitPrice": null,
       "unitPrice": null,
-      "vat": 3818,
+      "vat": 7636,
       "voucherDiscount": 0
     }
   }
